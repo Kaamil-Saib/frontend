@@ -1,0 +1,882 @@
+/*
+	App by FreeHTML5.co
+	Twitter: http://twitter.com/kamel
+	URL: http://freehtml5.co
+*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", "sans-serif";
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.download-btn-first {
+  background: #f7f7f7;
+}
+
+.download-btn-first:hover {
+  background: #FF9E05;
+  color: #fff !important;
+}
+
+.features-btn-first {
+  font-weight: 700;
+}
+
+.features-btn-first:hover {
+  background: #f7f7f7 !important;
+  color: #FF9E05 !important;
+}
+
+#kamel-hero-wrapper {
+  height: 800px;
+  width: 100%;
+  background: url("../img/banner-bg.jpg") no-repeat center;
+  background-size: cover;
+  border-radius: 0 0 50% 50% / 4%;
+}
+
+
+.main-navbar-nav .navbar-brand {
+  font-size: 45px;
+  letter-spacing: 4px;
+  position: relative;
+  top: -5px;
+  font-weight: 500;
+}
+
+.main-navbar-nav {
+  color: #000  !important;
+}
+.main-navbar-nav li {
+  color: #000;
+  opacity: .7;
+}
+.main-navbar-nav .navbar-nav .nav-item a:hover {
+  color: #FF9E05 !important;
+  -webkit-transition: all .33s ease;
+  -moz-transition: all .33s ease;
+  -o-transition: all .33s ease;
+  -ms-transition: all .33s ease;
+  transition: all .33s ease;
+}
+.main-navbar-nav .active {
+  color: #000 !important;
+  opacity: 1 !important;
+}
+.main-navbar-nav a {
+  color: #000 !important;
+}
+.main-navbar-nav .nav-link {
+  opacity: 1 !important;
+  margin: 0 35px;
+  font-size: 14.5px;
+  font-weight: 500;
+}
+
+.social-icons-header i {
+  margin: 15px;
+  font-size: 20px;
+}
+
+.social-icons-header a:hover i {
+  opacity: .6;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.kamel-hero-inner {
+  position: relative;
+}
+.kamel-hero-inner > h1 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 55px;
+  letter-spacing: 2px;
+}
+.kamel-hero-inner > p {
+  width: 400px;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 2em;
+}
+.kamel-hero-inner .kamel-hero-logo{
+  width: 800px;
+  height: 500px;
+}
+.kamel-hero-inner .kamel-hero-smartphone {
+  position: absolute;
+  right: 0px;
+  top: 120px;
+  height: 650px;
+}
+.kamel-hero-inner .features-btn-first {
+  font-size: 15px;
+  padding: 8px 13px;
+  font-weight: 400;
+  background: #fff;
+  color: #000;
+  margin-left: 10px;
+}
+.kamel-hero-inner .kamel-hero-smartphone {
+  position: absolute;
+  right: 0px;
+  top: 120px;
+  height: 650px;
+}
+
+.kamel-hero-inner .kamel-hero-column{
+display: flex;
+flex-direction: column; 
+}
+
+.kamel-hero-inner .kamel-hero-column .btn{
+  position: relative;
+  text-align: left;
+  left: 40%;
+  padding: 15px 200% 15px 15px;
+  margin : 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.kamel-hero-inner .kamel-hero-column .btn a{
+  color: #000;
+  font-size: 20px;
+}
+.kamel-hero-inner .kamel-hero-column .btn a:hover{
+  color: #FF9E05;
+}
+
+.kamel-hero-inner .kamel-hero-socials{
+  margin: 0 !important;
+}
+.kamel-hero-inner .kamel-hero-socials li{
+  display:inline;
+  list-style: none;
+margin: 0 10px;
+}
+
+
+.kamel-hero-inner .kamel-hero-socials li a i{
+  font-size: 30px;
+}
+
+
+/* ==========================================================================================================
+										INTRODUCTION
+   ========================================================================================================== */
+.kamel-intro-outer {
+  background-image: url("/img/squegle.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+.kamel-intro-outer .container {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 200px 120px;
+  overflow: hidden;
+}
+
+.intro-text-left h1{
+font-size: 56px;}
+
+.intro-text-left h3{
+  padding: 100px 0 20px 0;
+  font-size: 24px;
+  color: #FF9E05;
+  text-shadow: 0px 5px 12px #FFFFFF;
+}
+
+
+/* ==========================================================================================================
+										MY PROJECTS AND WORK
+   ========================================================================================================== */
+.kamel-work .container {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 200px 120px;
+  overflow: hidden;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 160px 10px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+.column img:hover {
+cursor: pointer;
+}
+
+.img-overlay {
+  position: relative;
+  width: 100%;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 3px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FF9E05;
+}
+
+.img-overlay:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+ .row{
+   padding: 0;
+   margin: 0;
+ }
+ .column{
+  padding: 0 2px;
+  margin: 0;
+}
+.column img{
+  padding: 2px;
+  margin: 0;
+}
+}
+
+/* ==========================================================================================================
+										ADVANTAGES
+   ========================================================================================================== */
+.kamel-advantages-outer {
+  background-image: url("/img/squegle2.svg");
+  background-repeat: no-repeat;
+  background-position:center;
+  padding: 70px;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+.kamel-advantages-outer .span-perfect {
+  color: #FF9E05;
+  text-transform: uppercase;
+  font-size: 27px;
+  letter-spacing: 1px;
+}
+.kamel-advantages-outer .span-features {
+  text-transform: uppercase;
+  font-size: 42px;
+}
+.kamel-advantages-outer .second-title {
+  text-align: center;
+  display: block;
+}
+.kamel-advantages-outer small {
+  display: block;
+  text-align: center;
+}
+.kamel-advantages-outer .kamel-advantages-grid-columns {
+  margin-top: 120px;
+}
+.kamel-advantages-outer .kamel-advantages-grid-columns .col-sm-4 .grid-image {
+  width: 30%;
+  float: left;
+  padding-right: 30px;
+  position: relative;
+  top: 1px;
+  color: #FF9E05;
+}
+.kamel-advantages-outer .kamel-advantages-grid-columns .col-sm-4 .grid-title {
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+.kamel-advantages-outer .kamel-advantages-grid-columns .col-sm-4 .grid-desc {
+  float: right;
+  font-size: 13px;
+  padding-right: 7%;
+  width: 70%;
+  color: #7e7e7e;
+  margin-top: 10px;
+  line-height: 1.87em;
+}
+
+.kamel-slider-inner {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.kamel-advantages-outer .btn-advantage{
+  background-color: #000 !important;
+  color: #fff;
+  border: none;
+  padding: 9px 12px;
+  border-radius: 4px;
+transition: 0.6s;
+margin: 0 0 0 30%;
+}
+.kamel-advantages-outer .btn-advantage:hover{
+  background-color: #FF9E05 !important; 
+border: none; 
+transition: 0.3s;
+
+}
+
+
+   /* ==========================================================================================================
+										SUB FOOTER
+   ========================================================================================================== */
+.img-float-left {
+  float: left;
+}
+
+.img-float-right {
+  float: right;
+}
+
+.footer-outer {
+  width: 100%;
+  padding: 50px;
+  height: 250px;
+  background: #FF9E05;
+  overflow: hidden;
+}
+.footer-outer .footer-inner {
+  width: 100%;
+  height: inherit;
+}
+.footer-outer .social-icons-footer i {
+  margin: 15px;
+  font-size: 20px;
+}
+.footer-outer .social-icons-footer a:hover i {
+  opacity: .6;
+  -webkit-transition: all .2s ease;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -ms-transition: all .2s ease;
+  transition: all .2s ease;
+}
+.footer-outer .footer-three-grid {
+  width: 1140px;
+  margin: 0 auto;
+  height: 50px;
+  text-align: center;
+}
+.footer-outer .column-1-3 {
+  width: 20%;
+  float: left;
+  height: 50px;
+}
+.footer-outer .column-1-3 h1 {
+  font-size: 38px;
+  letter-spacing: 3px;
+  position: relative;
+  top: -5px;
+  font-weight: 600;
+  color: #fff;
+}
+.footer-outer .column-2-3 {
+  width: 60%;
+  float: left;
+  height: 50px;
+}
+.footer-outer .column-3-3 {
+  width: 20%;
+  float: left;
+  height: 50px;
+}
+.footer-outer .column-3-3 a {
+  color: #000000;
+text-decoration: none;
+}
+
+.footer-outer .column-2-3 a {
+  color: #000000;
+  text-decoration: none;
+  
+  -webkit-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
+.footer-outer .column-2-3 a h4:hover {
+  color: #363636;
+  
+  -webkit-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
+.footer-outer .column-3-3 .social-icons-header a:hover {
+  color: #fff;
+  opacity: 1;
+  -webkit-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
+.footer-outer .footer-nav ul {
+  list-style: none;
+  text-align: center;
+}
+.footer-outer .footer-nav ul li {
+  display: inline-block;
+  line-height: 50px;
+  color: #363636;
+  margin: 0 30px;
+  font-size: 14px;
+}
+.footer-outer .footer-nav ul li:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  -webkit-transition: color .2s ease-in-out;
+  -o-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+}
+.footer-outer .footer-nav ul .active {
+  color: rgb(0, 0, 0);
+}
+.footer-outer .footer-nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+} 
+.footer-outer .footer-nav a h3{
+  -webkit-transition: color .2s ease;
+-o-transition: color .2s ease;
+transition: color .2s ease;
+}
+.footer-outer .border-bottom-footer {
+  height: 1px;
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #695543;
+  display: block;
+  margin-top: 50px;
+}
+.footer-outer .copyright {
+  color: #876856;
+  text-align: center;
+  font-size: 13px;
+  padding: 40px 0;
+}
+
+
+/* ==========================================================================================================
+                                       RESPONSIVE STYLING
+  ========================================================================================================== */
+@media screen and (max-width: 1400px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .kamel-hero-inner .kamel-hero-smartphone {
+    position: absolute;
+    right: 50px;
+    top: 200px;
+    height: 550px;
+  }
+
+  .curved-bg-div {
+    background-position: 100% -20px;
+  }
+
+  .footer-outer .footer-three-grid {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .kamel-hero-inner .kamel-hero-smartphone {
+    position: absolute;
+    right: -15px;
+    top: 200px;
+    height: 550px;
+  }
+}
+@media screen and (max-width: 993px) {
+  body {
+    overflow-x: hidden;
+  }
+  .kamel-intro-outer .container {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 300px 250px 0px 20px;
+    overflow: hidden;
+  }
+  
+  
+.intro-text-left h1{
+  font-size: 48px;}
+  
+  .intro-text-left h3{
+    padding: 100px 0 20px 0;
+    font-size: 24px;
+    color: #FF9E05;
+  }
+  
+ .row {
+    margin: 60px 10px;
+  }
+  
+  
+
+  #kamel-hero-wrapper {
+    height: 95vh;
+  }
+
+  .kamel-hero-inner {
+    margin-top: 30px;
+  }
+  .kamel-hero-inner .kamel-hero-column .btn{
+    position: relative;
+    text-align: left;
+    left: 10%;
+    padding: 15px 200% 15px 15px;
+    margin : 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    box-shadow: -18px 13px 40px -20px rgba(138,138,138,0.44);
+    -webkit-box-shadow: -18px 13px 40px -20px rgba(138,138,138,0.44);
+    -moz-box-shadow: -18px 13px 40px -20px rgba(138,138,138,0.44);
+  }
+  .kamel-hero-inner .kamel-hero-smartphone {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    top: 250px;
+    height: 460px;
+    margin-top: 110px;
+  }
+
+  .kamel-work .container {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 100px 20px;
+    overflow: hidden;
+  }
+
+  .kamel-advantages-outer {
+    margin-top: 50px;
+    padding-bottom: 0;
+  }
+
+  .kamel-advantages-outer .kamel-advantages-grid-columns .col-sm-4 .grid-image {
+    width: 60px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    padding-right: 0px;
+  margin: 0 0 20px 0;
+    position: relative;
+    top: 1px;
+  }
+.kamel-advantages-outer .btn-advantage{
+
+margin: 0 0 0 10%;
+}
+  .kamel-advantages-outer .kamel-advantages-grid-columns .col-sm-4 .grid-title {
+    float: none;
+    text-align: center;
+  }
+
+  .kamel-advantages-outer .kamel-advantages-grid-columns .col-sm-4 .grid-desc {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .kamel-slider-outer .kamel-slider-outer {
+    margin-top: 0px;
+  }
+
+  .kamel-features-outer {
+    margin-top: -100px;
+  }
+
+  .kamel-features-outer .sm-6-content p {
+    width: 100%;
+  }
+
+  .footer-outer .footer-nav ul li {
+    margin: 0 10px;
+  }
+
+  .footer-outer .social-icons-footer i {
+    margin: 15px 10px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 993px) {
+  .navbar-light .navbar-toggler {
+    color: #fff !important;
+    border-color: #c7c7c7 !important;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    margin: 0;
+    width: 100%;
+  }
+
+  .social-icons-header i:first-of-type {
+    margin-right: 10px !important;
+    margin-left: 0 !important;
+    font-size: 30px;
+  }
+  .container.footer-inner{
+    padding: 0;
+  }
+
+  .footer-outer .column-1-3 img {
+width: 200px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .kamel-hero-inner > h1 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 45px;
+    letter-spacing: 2px;
+  }
+
+  #kamel-hero-wrapper {
+    height: 800px;
+  }
+
+  .kamel-advantages-outer .kamel-advantages-grid-columns {
+    margin-top: 40px;
+  }
+
+  .kamel-advantages-grid-columns .col-sm-4 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 30px auto;
+    text-align: center;
+  }
+
+  .kamel-hero-inner .kamel-hero-smartphone {
+    display: block;
+    height: 420px;
+    top: 270px;
+  }
+  .kamel-hero-inner .kamel-hero-logo{
+    padding-top: 5%;
+    height: 100%; 
+    width: 110%;
+  }
+
+
+  
+.kamel-intro-outer .container {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 120px 50px;
+  overflow: hidden;
+}
+
+.intro-text-left h1{
+font-size: 56px;}
+
+.intro-text-left h3{
+  padding: 100px 0 20px 0;
+  font-size: 24px;
+  color: #FF9E05;
+  text-shadow: 0px 5px 12px #FFFFFF;
+}
+
+  .kamel-advantages-outer .second-title {
+    margin-top: 60px;
+  }
+
+  .kamel-bottom-outer {
+    margin-top: 40px;
+    overflow: hidden;
+  }
+
+  .kamel-bottom-outer .kamel-bottom-inner {
+    margin-top: 50px;
+  }
+
+
+  .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    overflow-x: hidden;
+  }
+
+  .kamel-bottom-outer .kamel-bottom-inner .col-sm-6 p {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .footer-outer {
+    height: auto;
+    padding: 20px;
+  }
+
+  .footer-outer .column-1-3 {
+    width: 100%;
+    float: none;
+    height: auto;
+    padding: 40px;
+  }
+  
+  .footer-outer .column-1-3 img {
+   width: 250px;
+  }
+
+  .footer-outer .column-2-3 {
+    width: 100%;
+    float: none;
+    height: auto;
+  }
+
+  .footer-outer .column-3-3 {
+    width: 100%;
+    float: left;
+    height: auto;
+    margin: 15px 0;
+  }
+
+  .footer-outer .copyright {
+    margin-top: 30px;
+    padding: 10px 0;
+  }
+
+  .footer-outer .border-bottom-footer {
+    height: 1px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    display: block;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 520px) {
+  #kamel-hero-wrapper {
+    height: 700px;
+  }
+  .navbar-toggler{
+    border: none;
+  }
+  .kamel-intro-outer{
+    background-size: 150%;
+  }
+
+  .kamel-hero-inner > h1 {
+    font-size: 40px;
+  }
+
+  .kamel-hero-inner > p {
+    width: 100%;
+  }
+
+  .kamel-hero-inner {
+    text-align: center;
+  }
+  .intro-text-left h1{
+    font-size: 36px;
+  }
+  .intro-text-left h2{
+    font-size: 22px;
+  }
+  .kamel-hero-inner .kamel-hero-smartphone {
+    display: none;
+      }
+.intro-text-left h3{
+  font-size: 18px;
+}
+
+
+.social-icons-header i:first-of-type {
+  font-size: 22px;
+}
+.kamel-advantages-outer{
+  background-size: 200%;
+}
+.kamel-advantages-outer .span-perfect {
+  font-size: 27px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.kamel-advantages-outer .span-features {
+  font-size: 36px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.kamel-advantages-outer .btn-advantage{
+  margin: 0 0 0 0;
+}
+}
